@@ -1,4 +1,4 @@
-# Lab 1 DevOps - Book API
+# Dcker Lab DevOps - Employees API
 
 ## Description
 
