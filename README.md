@@ -2,14 +2,8 @@
 
 ## Description
 
-This is Lab 1 of the DevOps course, featuring a Node.js API with PostgreSQL, containerized using Docker and Docker Compose. The Book API is a RESTful service for managing books, implemented with Express.js and Sequelize for database interactions.
+This is Lab 1 of the DevOps course, showcasing a Node.js API integrated with PostgreSQL, and containerized using Docker and Docker Compose. The Employee API is a RESTful service designed for managing employee records, implemented with Express.js and Sequelize for database interactions.
 
-## Prerequisites
-
-Before you begin, ensure you have installed the following:
-
-- [Docker](https://docs.docker.com/get-docker/)
-- [Docker Compose](https://docs.docker.com/compose/install/)
 
 ## Installation and Execution
 
@@ -18,11 +12,11 @@ Before you begin, ensure you have installed the following:
 Clone the GitHub repository:
 
 ```sh
-git clone https://github.com/fallndaraw/lab1-devOps.git
+git clone https://github.com/PapeMor221/Docker_Lab.git
 ```
 
 
-### 3. Build and Launch Docker Containers
+### 2. Build and Launch Docker Containers
 
 Build and launch the Docker containers using Docker Compose:
 
@@ -30,14 +24,14 @@ Build and launch the Docker containers using Docker Compose:
 docker-compose up -d
 ```
 
-### 4. Access the API
+### 3. Access the API
 
 Once the containers are running, the API will be available at:
 
 * **API Endpoints**: http://localhost:3000/employees
 * **Swagger Documentation for tests**: http://localhost:3000/docs
 
-### 5. Interact with the API
+### 4. Interact with the API
 
 You can use the API endpoints to perform the following operations:
 
@@ -47,7 +41,7 @@ You can use the API endpoints to perform the following operations:
 * **PUT /employees/{id}**: Update a employee by ID.
 * **DELETE /employees/{id}**: Delete a employees by ID.
 
-### 6. Stop the Containers
+### 5. Stop the Containers
 
 To stop the Docker containers, use the following command:
 
